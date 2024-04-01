@@ -1,0 +1,134 @@
+.horizontal-divider {
+    width: 100%;
+    align-self: center;
+    border-top: 2px solid white;
+    margin: 10px 10px;
+}
+.vertical-divider {
+    height: 100px;
+    border-left: 2px solid #000;
+    margin: 0 20px;
+}
+/*FOOTER*/
+footer {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    position: relative;
+    background: #000;
+    padding-top: 40px;
+    color: #999999;
+}
+.footer-col{
+    width: 23% !important;
+    margin: 0 5px;
+}
+.footer-title{
+    margin :0;
+}
+.au-txt{
+    text-align: left;
+    margin: 5px
+}
+/*HEADER*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    height: 100px;
+    width: 100%;
+}
+.no-decor{
+    color: black;
+    text-decoration: none;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+.logo-txt{
+    font-size: 20px;
+    font-weight: bold;
+}
+.categories{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.cate-container {
+    display: flex;
+
+    height: 100%;
+}
+.main-categories {
+    display: flex;
+}
+
+.main-category {
+    position: relative;
+    padding: 0 15px;
+    cursor: pointer;
+}
+.main-category p {
+    margin-top : 39%;
+    text-align: center;
+}
+.main-category ul {
+    display: none;
+    position: absolute;
+    list-style: none;
+    width: 100%;
+    text-align: left;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    padding: 5px;
+    z-index: 999;
+}
+.main-category ul li {
+    padding: 3px 7px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+.sub-cate-txt{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+.main-category:hover ul {
+    display: block;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.main-category:hover {
+    background-color: antiquewhite;
+}
+.main-category ul li:hover  {
+    background-color: antiquewhite;
+}
+.search-bar input[type="text"] {
+    padding: 6px;
+    width: 200px;
+}
+
+.search-bar button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.user-icon {
+    font-size: 24px;
+    margin-right: 20px;
+}
