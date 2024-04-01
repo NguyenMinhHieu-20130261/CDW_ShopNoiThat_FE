@@ -1,12 +1,14 @@
 import './App.css';
-import Header from "./component/Navigator/Header";
-import Footer from "./component/Navigator/Footer";
+import {Routes,Route} from "react-router-dom";
+import HomeScreen from "./screens/User/home/HomeScreen";
+import ProductListScreen from "./screens/User/product/ProductListScreen";
+
 function App() {
   return (
-    <div className="App">
-        <Header/>
-        <Footer/>
-    </div>
+    <Routes>
+        <Route path={'/'} element={<HomeScreen/>}/>
+        <Route path={'/product'} element={<ProductListScreen/>}/>
+    </Routes>
   );
 }
 
