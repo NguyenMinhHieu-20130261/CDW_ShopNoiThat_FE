@@ -1,0 +1,130 @@
+.vertical-divider {
+    height: 28px;
+    border-left: 2px solid #282c34;
+    margin: 6px 15px;
+}
+.prod-list-container{
+    margin-top: 110px;
+    height: auto;
+}
+.content-container{
+    width: 80%;
+    margin: 10px auto;
+}
+.srch-main-txt{
+    display: flex;
+    margin: 10px auto;
+    padding-left: 12px;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 600;
+}
+.srch-main-txt p {
+    margin-left: 5px;
+}
+/*FILTER*/
+.srch-filter{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+.filter-txt{
+    display: flex;
+    text-align: left;
+}
+.filter-txt p{
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+}
+.srch-filter select{
+    width: 200px;
+    background-color: #fff;
+    border-radius: 1px;
+    color: #333;
+    font-size: 16px;
+    padding: 8px;
+}
+.srch-filter select option {
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 0;
+}
+/*PROD LIST*/
+.srch-list {
+    width: 100%;
+    justify-content: center;
+    align-items: stretch;
+    margin: 10px auto;
+}
+.hc-wrapper{
+    display: flex;
+}
+.srch-container{
+    width: 100%;
+}
+.srch-row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.srch-prod {
+    width: calc(25% - 30px);
+    border: 1px solid #ccc;
+}
+
+.srch-prod img {
+    height: 250px;
+    cursor: pointer;
+    width: 100%;
+    /*height: auto;*/
+}
+
+.fprod-detail {
+    text-align: center;
+}
+
+.srch-top {
+}
+
+.srch-name {
+    padding: 4px 0;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.srch-middle {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+
+.srch-left,
+.srch-right {
+    flex: 1;
+}
+.srch-left{
+    text-align: left;
+}
+.srch-right{
+    text-align: right;
+}
+.srch-price,
+.srch-review,
+.srch-sold {
+    font-size: 16px;
+}
+.srch-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px
+}
+.srch-bottom .left-icon,
+.right-icon{
+    cursor: pointer;
+}

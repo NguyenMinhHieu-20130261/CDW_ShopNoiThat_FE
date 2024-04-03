@@ -12,8 +12,8 @@ const MainCategory = () =>{
             <p >Test main cate</p>
             <ul>
                 <li><Link to={'/product'} className="no-decor sub-cate-txt">Sofas</Link></li>
-                <li><a href="123" className="sub-cate-txt">Sofas</a></li>
-                <li><a href="123" className="sub-cate-txt">Sofas</a></li>
+                <li><Link to={'/product'} className="no-decor sub-cate-txt">Sofas</Link></li>
+                <li><Link to={'/product'} className="no-decor sub-cate-txt">Sofas</Link></li>
             </ul>
         </div>
     )
@@ -33,10 +33,14 @@ const Header = () => {
             </div>
             <div className="search-bar">
                 <input type="text" placeholder="Tìm sản phẩm..." />
-                <button><FontAwesomeIcon icon={faSearch} /></button>
+                <Link to={'/search'} >
+                    <button><FontAwesomeIcon icon={faSearch} /></button>
+                </Link>
             </div>
             <div className="user-icon">
-                <FontAwesomeIcon icon={faUser} />
+                <Link to={'/login'}>
+                    <FontAwesomeIcon icon={faUser} />
+                </Link>
             </div>
         </header>
     );

@@ -35,12 +35,16 @@ footer {
 }
 /*HEADER*/
 .header {
+    position: fixed;
+    top: 0;
+    left: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #f0f0f0;
     height: 100px;
     width: 100%;
+    z-index: 1000;
 }
 .no-decor{
     color: black;

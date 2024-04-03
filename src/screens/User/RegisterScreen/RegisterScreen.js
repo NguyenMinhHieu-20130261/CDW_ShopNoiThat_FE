@@ -1,7 +1,9 @@
 import React from "react";
 import Header from "../../../component/Navigator/Header";
 import Footer from "../../../component/Navigator/Footer";
-const ProductListScreen = () => {
+import "./RegisterScreen.css";
+
+const RegisterScreen = () => {
     return (
         <div className='prod-list-container'>
             <Header/>
@@ -10,4 +12,4 @@ const ProductListScreen = () => {
         </div>
     );
 }
-export default ProductListScreen;
+export default RegisterScreen;
