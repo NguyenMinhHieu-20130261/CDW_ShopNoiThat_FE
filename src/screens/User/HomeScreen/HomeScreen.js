@@ -14,6 +14,7 @@ import CATE from '../../../assets/home/cate-home1.webp'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import "./HomeScreen.css";
+import {Link} from "react-router-dom";
 
 const SliderComponent =() => {
     const images = [SLIDER1, SLIDER2, SLIDER3]
@@ -79,7 +80,7 @@ const CateComponent = () => {
 const ProdFlash = () => {
     return (
         <div className="flash-row">
-            <div className="flash-prod">
+            <Link  to={'/detail'} className="flash-prod">
                 <img src={CATE} alt="Product 1"/>
                 <div className="fprod-detail">
                     <div className="top">
@@ -103,8 +104,8 @@ const ProdFlash = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="flash-prod">
+            </Link>
+            <Link  to={'/detail'} className="flash-prod">
                 <img src={CATE} alt="Product 1"/>
                 <div className="fprod-detail">
                     <div className="top">
@@ -128,8 +129,8 @@ const ProdFlash = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="flash-prod">
+            </Link>
+            <Link  to={'/detail'} className="flash-prod">
                 <img src={CATE} alt="Product 1"/>
                 <div className="fprod-detail">
                     <div className="top">
@@ -153,8 +154,8 @@ const ProdFlash = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="flash-prod">
+            </Link>
+            <Link  to={'/detail'} className="flash-prod">
                 <img src={CATE} alt="Product 1"/>
                 <div className="fprod-detail">
                     <div className="top">
@@ -178,7 +179,7 @@ const ProdFlash = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </Link>
         </div>
     )
 }

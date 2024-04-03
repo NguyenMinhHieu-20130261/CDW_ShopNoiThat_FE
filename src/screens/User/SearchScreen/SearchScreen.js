@@ -199,7 +199,7 @@ const SearchScreen = () => {
     };
 
     return (
-        <div className="prod-list-container">
+        <div className="srch-list-container">
             <Header/>
             <div className="content-container">
                 <div className="srch-main-txt">

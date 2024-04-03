@@ -106,6 +106,8 @@
 .flash-prod {
     width: calc(25% - 16px);
     border: 1px solid #ccc;
+    text-decoration: none;
+    color: black;
 }
 
 .flash-prod img {
