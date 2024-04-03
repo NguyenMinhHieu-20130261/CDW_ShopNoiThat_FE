@@ -5,14 +5,15 @@ import Slider from 'react-slick';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart, faHeart } from '@fortawesome/free-solid-svg-icons';
 
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-import "./HomeScreen.css";
 //slider
 import SLIDER1 from '../../../assets/slider/slider1.webp'
 import SLIDER2 from '../../../assets/slider/slider2.webp'
 import SLIDER3 from '../../../assets/slider/slider3.webp'
 import CATE from '../../../assets/home/cate-home1.webp'
+
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import "./HomeScreen.css";
 
 const SliderComponent =() => {
     const images = [SLIDER1, SLIDER2, SLIDER3]
@@ -200,9 +201,9 @@ const HomeScreen = () => {
       return (
       <div className='home-container'>
           <Header/>
-          <div className="home-content">
+          <SliderComponent/>
+          <div className="content-container">
               {/*SLIDER*/}
-              <SliderComponent/>
               {/*CATE COMPONENT*/}
               <CateComponent/>
               {/*FLASH SALE*/}

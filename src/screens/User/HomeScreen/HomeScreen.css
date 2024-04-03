@@ -1,5 +1,10 @@
-.home-container{
+.home-container {
+    margin-top: 100px;
     height: auto;
+}
+.content-container{
+    width: 80%;
+    margin: 10px auto;
 }
 /*CateComponent*/
 .home-content{
@@ -9,7 +14,6 @@
     padding:0;
 }
 .home-cate {
-    width: 80%;
     justify-content: center;
     align-items: stretch;
     /*padding: 0 50px;*/
